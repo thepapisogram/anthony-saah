@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
       <body className={`${open_sans.className} app`}>
         <NavBar />
         {children}
-        <Footer author={site_info.author} year={site_info.year} last_updated={site_info.last_updated} />
+        <Footer author={site_info.general.author} year={site_info.general.year} last_updated={site_info.general.last_updated} />
       </body>
     </html>
   );
