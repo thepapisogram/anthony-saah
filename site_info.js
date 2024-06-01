@@ -2,6 +2,9 @@ const site_info = {
     home: {
         title: "Anthony 🐜"
     },
+    apps: {
+        title: "Apps • Anthony 🐜"
+    },
     about: {
         uni: {
             link: "https://site.gctu.edu.gh/",
@@ -16,6 +19,12 @@ const site_info = {
         description: "Explore my portfolio to discover more about me and my passion for crafting exceptional digital experiences",
         last_updated: "June 01 2024",
         year: 2024
+    },
+    logo: {
+        navbar: {
+            dark: "/assets/logos/trans-text-yellow.png",
+            light: "/assets/logos/trans-text-green.png"
+        }
     }
 }
 
