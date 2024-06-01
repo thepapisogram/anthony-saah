@@ -9,7 +9,7 @@ export default function PictureLanguage() {
         <div className="bg-yellow-400 rounded-3xl drop-shadow-sm rotate-[9deg]">
         <div className="bg-green-600 rounded-3xl drop-shadow-sm -rotate-[18deg]">
         <div className="bg-stone-800 rounded-3xl py-4 shadow-lg rotate-[9deg]">
-            <Image src="/profile/1.jpg" className="rounded-full mx-auto w-44 h-44 object-bottom object-cover" width={150} height={150} quality={100} alt="me" />
+            <Image src="/assets/profile/1.jpg" className="rounded-full mx-auto w-44 h-44 object-bottom object-cover" width={150} height={150} quality={100} alt="me" />
         </div>
         </div>
         </div>
