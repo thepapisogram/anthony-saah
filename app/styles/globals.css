@@ -10,8 +10,8 @@ body{
 .main-text{ @apply text-stone-900 dark:text-zinc-300 }
 .sub-text{ @apply text-zinc-500}
 
-.highlight-bg{
-    @apply bg-green-500 dark:bg-yellow-500 !bg-opacity-5
+.highlight-btn{
+    @apply p-1 px-2 head-text text-sm bg-green-500 dark:bg-yellow-500 !bg-opacity-10 hover:!bg-opacity-15 rounded-md transition-all
 }
 
 .app{

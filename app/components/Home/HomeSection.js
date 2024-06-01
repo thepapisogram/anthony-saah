@@ -1,4 +1,4 @@
-import ThemeIcon from "../universal/ThemeIcon";
+import ThemeIcon from "@/app/components/universal/ThemeIcon";
 
 export default function HomeSection({ icon, type, title, content: ContentComponent }) {
   return (
