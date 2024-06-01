@@ -1,13 +1,16 @@
+import AboutSection from "./components/Home/AboutSection";
+import FeaturedSection from "./components/Home/FeaturedSection";
+import HomeSection from "./components/Home/HomeSection";
 import PictureLanguage from "./components/Home/PictureLanguage";
+import ProjectSection from "./components/Home/ProjectSection";
 
 export default function Home() {
   return(
     <main>
       <PictureLanguage />
-      <section className="my-10">
-        <h1 className="flex items-center text-stone-500 dark:text-gray-400 font-bold text-lg tracking-wide"><box-icon color="#a1a1aa" name='book' size="sm"></box-icon> Projects</h1>
-        <h1>WIP</h1>
-      </section>
+      <HomeSection icon="dumbbell" title="Projects" content={ProjectSection} />
+      <HomeSection icon="book-bookmark" title="Featured" content={FeaturedSection} />
+      <HomeSection icon="info-circle" title="About Me" content={AboutSection} />
     </main>
   )
 }

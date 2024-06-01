@@ -12,8 +12,8 @@ const open_sans = Open_Sans({
 })
 
 export const metadata = {
-  title: "Anthony 🐜",
-  description: "Explore my portfolio to discover more about me and my passion for crafting exceptional digital experiences"
+  title: site_info.home.title,
+  description: site_info.general.description
 };
 
 export default function RootLayout({ children }) {

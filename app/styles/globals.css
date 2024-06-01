@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+    @apply text-stone-900 dark:text-zinc-300
+}
+
+.head-text{ @apply text-green-700 dark:text-yellow-600 }
+.main-text{ @apply text-stone-900 dark:text-zinc-300 }
+.sub-text{ @apply text-zinc-500}
+
+.highlight-bg{
+    @apply bg-green-500 dark:bg-yellow-500 !bg-opacity-5
+}
+
 .app{
     @apply bg-zinc-100 dark:bg-neutral-900 px-5 md:px-40 lg:px-44 xl:px-52
     /* @apply bg-zinc-100 px-5 md:px-40 lg:px-44 xl:px-52 */
