@@ -1,0 +1,5 @@
+export default function LoadingCircle() {
+  return (
+      <svg width="20" height="20" viewBox="0 0 12 12" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg"><circle cx="6" cy="6" r="5" stroke-linecap="round" stroke-dasharray="31.416"><animateTransform attributeType="xml" attributeName="transform" type="rotate" from="360 6 6" to="0 6 6" dur="1s" additive="sum" repeatCount="indefinite"></animateTransform><animate attributeName="stroke-dashoffset" attributeType="xml" from="31.416" to="12.566" dur="0.9s" fill="freeze"></animate><animate attributeName="stroke-width" attributeType="xml" from="0" to="1" dur="0.5s" fill="freeze"></animate></circle><circle cx="6" cy="6" r="3" stroke-linecap="round" stroke-dasharray="11.31"><animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 6 6" to="360 6 6" dur="1s" additive="sum" repeatCount="indefinite"></animateTransform><animate attributeName="stroke-dashoffset" attributeType="xml" from="31.416" to="12.566" dur="0.9s" fill="freeze"></animate><animate attributeName="stroke-width" attributeType="xml" from="0" to="1" dur="0.5s" fill="freeze"></animate></circle></svg>
+  )
+}
