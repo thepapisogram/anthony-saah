@@ -19,7 +19,7 @@ export default function PictureLanguage() {
             <h1 className="text-center text-3xl">👋🏾</h1>
             <h1 className="text-center dark:text-yellow-500 tracking-wide text-3xl">I&apos;m Anthony</h1>
             <div className="text-center dark:text-neutral-500 tracking-widest">A Front-End Web Developer</div>
-            <div className="grid grid-cols-2 py-2 md:p-0 md:grid-cols-3 lg:grid-cols-4">
+            <div className="hidden md:grid grid-cols-2 py-2 md:p-0 md:grid-cols-3 lg:grid-cols-4">
                 <LanguageIcon icon="react" color="#0dcaf0" />
                 <LanguageIcon icon="bootstrap" color="#563d7c" />
                 <LanguageIcon icon="jquery" color="#0dcaf0" />
