@@ -1,5 +1,5 @@
 import Image from "next/image";
-import LanguageIcon from "./LanguageIcon";
+import LanguageIcon from "./Sections/LanguageIcon";
 
 export default function PictureLanguage() {
   return (

@@ -4,7 +4,7 @@ export default function ProjectSection() {
   return (
     <div>
         <h1 className="main-text mb-2">I&apos;ll update this section soon</h1>
-        <HighlightLink link="/apps" text="View All" />
+        <HighlightLink link="/projects" text="View All" />
     </div>
   )
 }

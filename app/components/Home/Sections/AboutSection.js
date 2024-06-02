@@ -1,5 +1,5 @@
 import site_info from "@/site_info";
-import HighlightLink from "../universal/HighlightLink";
+import HighlightLink from "../../universal/HighlightLink";
 
 export default function AboutSection() {
     return (

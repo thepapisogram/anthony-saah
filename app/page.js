@@ -1,8 +1,8 @@
-import AboutSection from "./components/Home/AboutSection";
-import FeaturedSection from "./components/Home/FeaturedSection";
-import HomeSection from "./components/Home/HomeSection";
+import AboutSection from "./components/Home/Sections/AboutSection";
+import FeaturedSection from "./components/Home/Sections/FeaturedSection";
+import HomeSection from "./components/Home/Sections/HomeSection";
 import PictureLanguage from "./components/Home/PictureLanguage";
-import ProjectSection from "./components/Home/ProjectSection";
+import ProjectSection from "./components/Home/Sections/ProjectSection";
 
 export default function Home() {
   return(
