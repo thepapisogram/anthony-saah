@@ -3,7 +3,7 @@
 import { useState } from 'react'
 
 import '@/app/styles/projects/calculator.css'
-import HomeLink from '@/app/components/Projects/HomeLink';
+import BackLink from '@/app/components/universal/BackLink';
 
 export default function page() {
 
@@ -60,7 +60,7 @@ export default function page() {
 
   return (
     <div className="p-2">
-      <HomeLink />
+      <BackLink link="/projects" text="Projects" />
       <div className="bg-stone-800 w-full md:w-80 mx-auto rounded-lg p-3">
         <h1 className="text-center head-text tracking-wide font-thin text-xl">Simple Calculator</h1>
         <input type="text" className="calc-input" placeholder="0" value={screen} readOnly />
