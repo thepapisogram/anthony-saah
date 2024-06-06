@@ -1,8 +1,10 @@
 import Link from "next/link"
+import HomeLink from "../components/universal/HomeLink"
 
 export default function page() {
   return (
     <div className="my-5">
+      <HomeLink />
       <h1 className="text-xl main-text uppercase">Projects</h1>
       <p className="sub-text">After losing lots of code, I&apos;m starting over with my projects. Explore the new web applications I&apos;m building! From simple projects to large scale apps. Below are the projects I&apos;ve completed.</p>
       <div className="grid md:grid-cols-2 mt-5 gap-2">
