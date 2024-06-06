@@ -54,9 +54,11 @@ export default function page() {
   // =
   const insAns = () => {
     const answer = eval(screen).toFixed(1);
-    if(answer.endsWith('.0')) setScreen(`${answer.slice(0, -2)}`)
+    if(answer.endsWith('.0')) setScreen(`${answer.slice(0, -2)}`);
     else setScreen(`${answer}`);
-    setLastSymbol('');
+
+    if (answer.includes('.')) setLastSymbol('.');
+    else setLastSymbol('');
   }
 
   return (
