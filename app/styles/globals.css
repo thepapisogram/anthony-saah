@@ -15,7 +15,7 @@ body{
 }
 
 .project-link{
-    @apply p-2 head-text bg-green-500 dark:bg-yellow-500 !bg-opacity-10 hover:!bg-opacity-15 rounded-md transition-all
+    @apply p-2 head-text bg-green-500 dark:bg-yellow-700 !bg-opacity-10 hover:!bg-opacity-15 rounded-md transition-all
 }
 
 .app{
@@ -23,5 +23,5 @@ body{
 }
 
 .crumb{
-    @apply flex items-center gap-1 text-center head-text font-thin tracking-wide mb-2
+    @apply flex items-center gap-1 text-center head-text font-thin tracking-wide mb-4
 }
