@@ -32,6 +32,7 @@ export default function page() {
       if (!screen.endsWith('.')) setScreen(`${screen}.`);
       else setScreen(`${screen}0.`)
     }
+    else if (lastSymbol == "." && !screen.endsWith('.')) setScreen(`${screen}0.`);
     else if (lastSymbol == '') setScreen(`${screen}.`);
     else setScreen(`${screen}0.`)
 
