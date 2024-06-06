@@ -27,11 +27,11 @@ export default function page() {
   const insPoint = () => {
     if (screen == '') setScreen('0.');
     else if (lastSymbol == "." && screen.endsWith('.')) console.log('err: . is last symbol');
+    else if (lastSymbol == '.') console.log('err: . is the last symbol');
     else if (lastSymbol == "+" || lastSymbol == "-" || lastSymbol == "/" || lastSymbol == "*"){
       if (!screen.endsWith('.')) setScreen(`${screen}.`);
       else setScreen(`${screen}0.`)
     }
-    else if (lastSymbol == '.') console.log('err: . is the last symbol');
     else if (lastSymbol == '') setScreen(`${screen}.`);
     else setScreen(`${screen}0.`)
 
@@ -60,7 +60,7 @@ export default function page() {
   }
 
   return (
-    <div className="p-2">
+    <div className="p-2 my-3">
       <BackLink link="/projects" text="Projects" />
       <div className="bg-stone-800 w-full md:w-80 mx-auto rounded-lg p-3">
         <h1 className="text-center head-text tracking-wide font-thin text-xl">Simple Calculator</h1>
