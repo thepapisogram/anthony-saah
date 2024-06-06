@@ -31,6 +31,7 @@ export default function page() {
       if (!screen.endsWith('.')) setScreen(`${screen}.`);
       else setScreen(`${screen}0.`)
     }
+    else if (lastSymbol == '.') console.log('err: . is the last symbol');
     else if (lastSymbol == '') setScreen(`${screen}.`);
     else setScreen(`${screen}0.`)
 
