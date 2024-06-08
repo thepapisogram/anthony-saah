@@ -1,13 +1,21 @@
+.calculator{
+    @apply bg-neutral-400 dark:bg-stone-800 w-full md:w-80 mx-auto rounded-lg p-3
+}
+
+.calc-text{
+    @apply text-center tracking-wide font-normal font-sans text-xl
+}
+
 .calc-input{
-    @apply bg-stone-900 w-full p-2 rounded-md text-right font-bold tracking-widest text-2xl outline-none placeholder:opacity-40 placeholder:text-yellow-600 text-yellow-600 drop-shadow-lg my-3
+    @apply bg-gray-200 dark:bg-stone-900 w-full p-2 rounded-md text-right font-bold tracking-widest text-2xl outline-none placeholder:opacity-40 placeholder:text-green-600  text-green-600 dark:placeholder:text-yellow-600 dark:text-yellow-600 drop-shadow-lg my-3 transition-all
 }
 
 .edge-btn{
-    @apply bg-yellow-900 text-xl p-3 rounded-md drop-shadow-md outline-none
-    hover:bg-yellow-950
+    @apply bg-green-900 text-white dark:bg-yellow-900 dark:text-stone-900 text-xl p-3 rounded-md drop-shadow-md outline-none transition-all
+    dark:hover:bg-yellow-950 hover:bg-green-950
 }
 
 .reg-btn{
-    @apply transition-all bg-stone-900 text-yellow-700 text-xl p-3 rounded-md drop-shadow-md outline-none
+    @apply transition-all bg-gray-200 text-green-700 dark:bg-stone-900 dark:text-yellow-700 text-xl p-3 rounded-md drop-shadow-md outline-none transition-all
     hover:bg-stone-950 hover:text-yellow-600
 }
