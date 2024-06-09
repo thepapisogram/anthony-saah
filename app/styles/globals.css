@@ -23,5 +23,5 @@ body{
 }
 
 .crumb{
-    @apply flex items-center gap-1 text-center head-text font-thin tracking-wide mb-4
+    @apply flex items-center gap-1 text-center head-text font-thin tracking-wide mb-4 w-max
 }

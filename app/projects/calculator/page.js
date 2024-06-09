@@ -10,6 +10,7 @@ export default function page() {
   const [screen, setScreen] = useState('');
   const [lastSymbol, setLastSymbol] = useState('');
   const [bracketOpen, setBracketOpen] = useState(false);
+  const [ans, setAns] = useState('0');
 
   // Backspace & Clear
   const backSpace = () => {
@@ -25,6 +26,12 @@ export default function page() {
   const insNum = (num) => {
     setScreen(`${screen}${num}`)
   }
+
+  // ANS
+  const insANS = () => {
+    setScreen(`${screen}${ans}`);
+  }
+
   // .
   const insPoint = () => {
     if (screen == '') setScreen('0.');
@@ -90,8 +97,12 @@ export default function page() {
     if(answer.endsWith('.0')){
       setScreen(`${answer.slice(0, -2)}`);
       answer = answer.slice(0, -2);
+      setAns(answer);
     }
-    else setScreen(`${answer}`);
+    else {
+      setScreen(`${answer}`);
+      setAns(answer);
+    };
 
     if (answer.includes('.')) setLastSymbol('.');
     else setLastSymbol('');
@@ -125,7 +136,7 @@ export default function page() {
           <button className="edge-btn" onClick={ (e) => insOp(e.target.innerText)}>+</button>
           <button className="reg-btn" onClick={() => insPoint()}>&#46;</button>
           <button className="reg-btn" onClick={(e) => insNum(e.target.innerText)}>0</button>
-          <button className="reg-btn">ANS</button>
+          <button className="reg-btn" onClick={insANS}>ANS</button>
           <button className="edge-btn" onClick={insAns}>&#61;</button>
         </div>
       </div>

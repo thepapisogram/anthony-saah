@@ -1,5 +1,5 @@
 .calculator{
-    @apply bg-neutral-400 dark:bg-stone-800 w-full md:w-80 mx-auto rounded-lg p-3
+    @apply bg-neutral-300 dark:bg-stone-800 w-full md:w-80 mx-auto rounded-lg p-3
 }
 
 .calc-text{
@@ -16,6 +16,6 @@
 }
 
 .reg-btn{
-    @apply transition-all bg-gray-200 text-green-700 dark:bg-stone-900 dark:text-yellow-700 text-xl p-3 rounded-md drop-shadow-md outline-none transition-all
-    hover:bg-stone-950 hover:text-yellow-600
+    @apply bg-gray-200 text-green-700 dark:bg-stone-900 dark:text-yellow-700 text-xl p-3 rounded-md drop-shadow-md outline-none transition-all
+    dark:hover:bg-stone-950 dark:hover:text-yellow-600 hover:bg-gray-300 hover:text-green-600
 }

@@ -1,1 +1,7 @@
-add functionality for ( ) buttons in calculator project
+PROJECTS
+Set component so all project links can be viewed
+
+CALCULATOR
+Add section to view calculator code
+Fix ans button on the calculator
+Update BackLink width on the site

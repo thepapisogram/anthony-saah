@@ -2,8 +2,8 @@ const site_info = {
     home: {
         title: "Anthony 🐜"
     },
-    apps: {
-        title: "Apps • Anthony 🐜"
+    projects: {
+        title: "Projects • Anthony 🐜"
     },
     about: {
         uni: {
