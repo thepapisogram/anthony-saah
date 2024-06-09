@@ -11,11 +11,11 @@ body{
 .sub-text{ @apply text-zinc-500}
 
 .highlight-btn{
-    @apply p-0.5 px-1 head-text text-sm bg-green-500 dark:bg-yellow-500 !bg-opacity-10 hover:!bg-opacity-15 rounded-md transition-all
+    @apply p-0.5 px-1 head-text text-sm bg-green-500 dark:bg-yellow-500 !bg-opacity-20 hover:!bg-opacity-15 rounded-md transition-all
 }
 
 .project-link{
-    @apply p-2 head-text bg-green-500 dark:bg-yellow-700 !bg-opacity-10 hover:!bg-opacity-15 rounded-md transition-all
+    @apply p-2 head-text bg-green-500 dark:bg-yellow-700 !bg-opacity-30 hover:!bg-opacity-15 rounded-md transition-all
 }
 
 .app{

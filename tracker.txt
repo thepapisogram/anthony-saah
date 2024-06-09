@@ -3,5 +3,5 @@ Set component so all project links can be viewed
 
 CALCULATOR
 Add section to view calculator code
-Fix ans button on the calculator
-Update BackLink width on the site
+Fix ans button on the calculator -- completed
+Update BackLink width on the site -- completed
