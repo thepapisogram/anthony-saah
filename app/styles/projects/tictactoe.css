@@ -10,6 +10,6 @@
     @apply bg-white dark:bg-black text-green-800 dark:text-yellow-700 p-2 bg-opacity-80 text-center font-bold text-4xl border-2 border-green-900 dark:border-yellow-900 rounded-md
 }
 
-/* .project-link{
-    @apply p-2 head-text bg-green-500 dark:bg-yellow-700 !bg-opacity-30 hover:!bg-opacity-15 rounded-lg cursor-pointer my-2 transition-all w-full
-} */
+.game-text{
+    @apply col-span-3 text-center text-green-800 dark:text-yellow-700 text-2xl font-bold tracking-wide my-2 drop-shadow-lg
+}
