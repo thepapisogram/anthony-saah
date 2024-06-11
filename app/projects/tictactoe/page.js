@@ -9,8 +9,16 @@ export default function page() {
   return (
     <div className="p-2 my-3">
       <BackLink link="/projects" text="Projects" />
-      <div className="tictactoe">
-        
+      <div className="tictactoe head-text">
+        <div className="box">X</div>
+        <div className="box">X</div>
+        <div className="selected-box">X</div>
+        <div className="box">X</div>
+        <div className="box">X</div>
+        <div className="box">X</div>
+        <div className="box">X</div>
+        <div className="box">X</div>
+        <div className="box">X</div>
       </div>
     </div>
   )
