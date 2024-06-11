@@ -11,11 +11,9 @@
 }
 
 .edge-btn{
-    @apply bg-green-900 text-white dark:bg-yellow-900 dark:text-stone-900 text-xl p-3 rounded-md drop-shadow-md outline-none transition-all
-    dark:hover:bg-yellow-950 hover:bg-green-950
+    @apply bg-green-900 text-white dark:bg-yellow-900 dark:text-stone-900 text-xl p-3 rounded-md drop-shadow-md outline-none
 }
 
 .reg-btn{
-    @apply bg-gray-200 text-green-700 dark:bg-stone-900 dark:text-yellow-700 text-xl p-3 rounded-md drop-shadow-md outline-none transition-all
-    dark:hover:bg-stone-950 dark:hover:text-yellow-600 hover:bg-gray-300 hover:text-green-600
+    @apply bg-gray-200 text-green-700 dark:bg-stone-900 dark:text-yellow-700 text-xl p-3 rounded-md drop-shadow-md outline-none
 }
