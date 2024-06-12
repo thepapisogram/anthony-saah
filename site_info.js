@@ -4,7 +4,7 @@ const site_info = {
             image: "/assets/profile/home.jpeg",
             emoji: "👋🏾",
             name: "I'm Anthony",
-            job: "Full-Stack Web Developer",
+            job: "A Full-Stack Web Developer",
             extra: "Explore my portfolio to discover more about me and my passion for crafting exceptional digital experiences"
         }
     },
@@ -26,7 +26,7 @@ const site_info = {
         author: "Anthony Saah",
         age: new Date().getFullYear() - 2004,
         description: "Explore my portfolio to discover more about me and my passion for crafting exceptional digital experiences",
-        last_updated: "June 01 2024",
+        last_updated: "June 12 2024",
         year: 2024
     },
     logo: {

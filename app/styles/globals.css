@@ -49,3 +49,4 @@ body{
 */
 .footer-hr{ @apply bg-neutral-900 dark:bg-neutral-700 bg-opacity-50 p-0.5 border-none rounded-full my-5 }
 .footer{ @apply text-neutral-600 text-sm mb-5 }
+.footer > *{ @apply font-sans }
