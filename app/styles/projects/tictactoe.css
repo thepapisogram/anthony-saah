@@ -3,13 +3,17 @@
 }
 
 .square{
-    @apply dark:bg-yellow-700 bg-green-800 p-2 dark:text-stone-900 text-white bg-opacity-60 text-center font-bold text-4xl border-2 border-green-900 dark:border-stone-900 rounded-md
+    @apply flex justify-center items-center h-20 dark:bg-yellow-700 bg-green-800 dark:text-stone-900 text-white bg-opacity-60 text-center font-bold text-5xl border-2 border-green-900 dark:border-stone-900 rounded-md
 }
 
-.selected-square{
-    @apply bg-white dark:bg-black text-green-800 dark:text-yellow-700 p-2 bg-opacity-80 text-center font-bold text-4xl border-2 border-green-900 dark:border-yellow-900 rounded-md
+.square:disabled{
+    @apply blur-sm
 }
 
 .game-info{
     @apply col-span-3 text-center text-green-800 dark:text-yellow-700 text-2xl font-bold tracking-wide my-2 drop-shadow-lg
+}
+
+.start-btn{
+    @apply col-span-3 bg-neutral-100 text-green-700 dark:bg-yellow-700 dark:text-stone-900 font-semibold tracking-wide py-2 rounded-md drop-shadow-md text-xl
 }
