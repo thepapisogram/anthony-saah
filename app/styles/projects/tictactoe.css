@@ -2,14 +2,14 @@
     @apply grid grid-cols-3 gap-2 bg-neutral-300 dark:bg-stone-800 w-full md:w-72 mx-auto rounded-lg p-3
 }
 
-.box{
-    @apply dark:bg-yellow-700 bg-green-800 p-2 dark:text-stone-900 text-white bg-opacity-80 text-center font-bold text-4xl border-2 border-green-900 dark:border-stone-900 rounded-md
+.square{
+    @apply dark:bg-yellow-700 bg-green-800 p-2 dark:text-stone-900 text-white bg-opacity-60 text-center font-bold text-4xl border-2 border-green-900 dark:border-stone-900 rounded-md
 }
 
-.selected-box{
+.selected-square{
     @apply bg-white dark:bg-black text-green-800 dark:text-yellow-700 p-2 bg-opacity-80 text-center font-bold text-4xl border-2 border-green-900 dark:border-yellow-900 rounded-md
 }
 
-.game-text{
+.game-info{
     @apply col-span-3 text-center text-green-800 dark:text-yellow-700 text-2xl font-bold tracking-wide my-2 drop-shadow-lg
 }
