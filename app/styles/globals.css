@@ -11,7 +11,7 @@ body{
 .sub-text{ @apply text-zinc-500}
 
 .highlight-btn{
-    @apply p-0.5 px-1 head-text text-sm bg-green-500 dark:bg-yellow-500 !bg-opacity-20 hover:!bg-opacity-15 rounded-md transition-all
+    @apply p-0.5 px-1 head-text text-sm bg-green-500 dark:bg-yellow-500 !bg-opacity-20 hover:!bg-opacity-15 rounded-md transition-all break-words
 }
 
 .project-link{
@@ -25,3 +25,27 @@ body{
 .crumb{
     @apply flex items-center gap-1 text-center head-text font-thin tracking-wide mb-4 w-max
 }
+
+/* 
+----- HOMEPAGE STYLES -----
+*/
+.profile-widget{ @apply grid md:grid-cols-2 overflow-hidden py-5 md:py-0 }
+.pw-box1{ @apply p-2 md:p-10 transition-all }
+.pw-box2{ @apply bg-red-600 rounded-3xl drop-shadow-sm }
+.pw-box3{ @apply bg-yellow-400 rounded-3xl drop-shadow-sm rotate-[9deg] }
+.pw-box4{ @apply bg-green-600 rounded-3xl drop-shadow-sm -rotate-[18deg] }
+.pw-imgbox{ @apply bg-stone-800 rounded-3xl py-4 shadow-lg rotate-[9deg] }
+.pw-img{ @apply rounded-full mx-auto w-44 h-44 object-top object-cover }
+
+.pw-content{ @apply flex justify-center flex-col }
+.pw-c-emoji{ @apply text-center text-3xl }
+.pw-c-name{ @apply text-center dark:text-yellow-500 tracking-wide text-3xl }
+.pw-c-job{ @apply text-center sub-text font-bold tracking-widest }
+.pw-c-extra{ @apply md:hidden text-center main-text tracking-wide mt-3 }
+.pw-c-icons{ @apply hidden md:grid grid-cols-2 py-2 md:p-0 md:grid-cols-3 lg:grid-cols-4 }
+
+/* 
+----- FOOTER STYLES -----
+*/
+.footer-hr{ @apply bg-neutral-900 dark:bg-neutral-700 bg-opacity-50 p-0.5 border-none rounded-full my-5 }
+.footer{ @apply text-neutral-600 text-sm mb-5 }

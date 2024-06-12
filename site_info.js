@@ -1,4 +1,13 @@
 const site_info = {
+    components: {
+        ProfileWidget: {
+            image: "/assets/profile/home.jpeg",
+            emoji: "👋🏾",
+            name: "I'm Anthony",
+            job: "Full-Stack Web Developer",
+            extra: "Explore my portfolio to discover more about me and my passion for crafting exceptional digital experiences"
+        }
+    },
     home: {
         title: "Anthony 🐜"
     },

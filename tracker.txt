@@ -2,6 +2,7 @@ PROJECTS
 Set component so all project links can be viewed
 
 CALCULATOR
-Add section to view calculator code
-Fix ans button on the calculator -- completed
-Update BackLink width on the site -- completed
+Add text to view calculator error
+
+TICTACTOE
+Add option to set vs computer or two players
