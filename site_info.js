@@ -8,11 +8,13 @@ const site_info = {
             extra: "Explore my portfolio to discover more about me and my passion for crafting exceptional digital experiences"
         }
     },
-    home: {
-        title: "Anthony 🐜"
-    },
-    projects: {
-        title: "Projects • Anthony 🐜"
+    metadata: {
+        home: {
+            title: "Anthony 🐜"
+        },
+        projects: {
+            title: "Projects • Anthony 🐜"
+        },
     },
     about: {
         uni: {

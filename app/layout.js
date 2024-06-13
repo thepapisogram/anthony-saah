@@ -12,7 +12,7 @@ const open_sans = Open_Sans({
 })
 
 export const metadata = {
-  title: site_info.home.title,
+  title: site_info.metadata.home.title,
   description: site_info.general.description
 };
 
