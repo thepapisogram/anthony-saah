@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-export default function ProjectLink({title, link, body}) {
+export default function ProjectLink({title = "Project", link = "#", body = "Project Body"}) {
   return (
     <div>
       <div className="project-link">

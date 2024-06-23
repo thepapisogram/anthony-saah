@@ -28,7 +28,7 @@ const site_info = {
         author: "Anthony Saah",
         age: new Date().getFullYear() - 2004,
         description: "Explore my portfolio to discover more about me and my passion for crafting exceptional digital experiences",
-        last_updated: "June 12 2024",
+        last_updated: "June 23 2024",
         year: 2024
     },
     logo: {
